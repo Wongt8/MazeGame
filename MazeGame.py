@@ -1,7 +1,7 @@
 from Maze import *
 from Robot import *
 from BreadthFirst import *
-from GUI import *
+from MazeGUI import *
 
 from tkinter import *
 
@@ -17,7 +17,7 @@ if __name__ == '__main__':
         maze = Maze(width, height, level)
 
         maze.generate_maze()
-        maze.afficher_maze()
+        maze.display_maze()
 
         grille = Canvas(fenetre,width=len(maze.get_maze()[0]*25), height=len(maze.get_maze())*25)
         grille.pack()

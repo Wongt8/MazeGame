@@ -239,7 +239,7 @@ class Maze:
         self.add_ending_point_and_starting_point()
         
     
-    def afficher_maze(self):
+    def display_maze(self):
         print(f"Niveau {self.level}")
         for line in range(len(self.maze)):
             for i in range(len(self.maze[line])):
