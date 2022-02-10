@@ -1,6 +1,6 @@
 from Maze import *
 from Robot import *
-from Pathfind import *
+from BreadthFirst import *
 
 
 from tkinter import *
@@ -11,7 +11,6 @@ Define maze size and level
 width = 8
 height = 8
 level = 1
-
 
 
 def poseDecor(maze:Maze,good_moves:list):
@@ -71,7 +70,8 @@ if __name__ == '__main__':
     maze.afficher_maze()
     grille=Canvas(fenetre,width=len(maze.get_maze()[0]*25),height=len(maze.get_maze())*25)
     grille.pack()
-    good_moves = list(path_finding(maze))
+    breadth_first = Breadth_First(maze) 
+    good_moves = list(breadth_first.path_finding())
     poseDecor(maze,good_moves) # on construit le labyrinthe
     pers=Robot(maze.get_starting_point()[1],maze.get_starting_point()[0],"E",grille,maze.get_maze(),fenetre) # on construit le robot
     pers.dessiner("E",grille)
