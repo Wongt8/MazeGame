@@ -5,16 +5,11 @@ from GUI import *
 
 from tkinter import *
 
-"""
-Define maze size and level
-"""
-width = 3
-height = 3
-level = 1
-
-
 
 if __name__ == '__main__':
+
+    width, height, level = 3, 3, 1
+
     while True:
 
         fenetre = Tk()
