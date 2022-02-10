@@ -6,7 +6,7 @@
 A simple maze game. Each level has a different maze and a different solution.
 
 ## Introduction
-The goal of this project is to learn how to generate a maze and solve it. (The solver has not been implemented yet.) 
+The goal of this project is to learn how to generate a maze and solve it. (The solver is working a bit) 
 
 
 
