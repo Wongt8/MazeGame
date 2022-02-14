@@ -1,7 +1,7 @@
 from Maze import *
 from Robot import *
-from BreadthFirst import *
-from MazeGUI import *
+from breadth_first import *
+from maze_gui import *
 
 from tkinter import *
 
