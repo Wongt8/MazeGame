@@ -9,6 +9,11 @@ A simple maze game. Each level has a different maze and a different solution.
 The goal of this project is to learn how to generate a maze and solve it. (The solver is working a bit) 
 
 
+## How to play
+    python maze_game.py
+    # or
+    python python3 maze_game.py
+
 
 
 ----
