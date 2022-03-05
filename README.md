@@ -12,7 +12,7 @@ The goal of this project is to learn how to generate a maze and solve it. (The s
 ## How to play
     python maze_game.py
     # or
-    python python3 maze_game.py
+    python3 maze_game.py
 
 
 
