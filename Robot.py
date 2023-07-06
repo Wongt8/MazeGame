@@ -1,4 +1,4 @@
-from Maze import CellState
+from maze import CellState
 
 
 class Robot:

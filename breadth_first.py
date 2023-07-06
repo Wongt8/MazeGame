@@ -1,4 +1,4 @@
-from Maze import *
+from maze import *
 import queue
 
 

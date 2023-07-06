@@ -1,5 +1,5 @@
-from Maze import *
-from Robot import *
+from maze import *
+from robot import *
 from breadth_first import *
 from maze_gui import *
 from astart import *
